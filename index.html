@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<title>GoHub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>GoHub 🌍</h1>
+    <input type="text" id="search" placeholder="ค้นหาที่เที่ยว เช่น กรุงเทพ เชียงใหม่">
+    <button onclick="searchPlace()">ค้นหา</button>
+</header>
+
+<section class="categories">
+    <button onclick="filter('hotel')"> โรงแรม</button>
+    <button onclick="filter('food')"> ร้านอาหาร</button>
+    <button onclick="filter('place')"> ที่เที่ยว</button>
+</section>
+
+<section id="results" class="cards"></section>
+
+<script src="script.js"></script>
+</body>
+
+<footer>
+    <div class="footer-container">
+
+        <div class="footer-section">
+            <h3>GoHub 🌍</h3>
+            <p>เว็บแนะนำสถานที่ท่องเที่ยว ร้านอาหาร และโรงแรมทั่วไทย</p>
+        </div>
+
+        <div class="footer-section">
+            <h4>เมนู</h4>
+            <a href="#">หน้าแรก</a>
+            <a href="#">ที่เที่ยว</a>
+            <a href="#">ร้านอาหาร</a>
+            <a href="#">โรงแรม</a>
+        </div>
+
+        <div class="footer-section">
+            <h4>ติดต่อ</h4>
+            <p>Email: gohub@email.com</p>
+            <p>Tel: 099-999-9999</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 GoHub - All Rights Reserved
+    </div>
+</footer>
+</html>
